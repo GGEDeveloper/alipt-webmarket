@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+.npm/
+dist/
+.next/
+.env
+.env.local
+.env.production
+logs/
+.cache/
+
+# Editor
+.vscode/
+.idea/
+
+# Prisma
+prisma/migrations/
+
+# Dependências do sistema
+.DS_Store
+Thumbs.db
