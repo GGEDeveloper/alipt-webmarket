@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import Image from "next/image";
+// import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -42,9 +42,9 @@ export default function EditProductPage() {
   const [urlField, setUrlField] = useState("");
 
   // Função para construir a URL da imagem
-  const getImageUrl = (imagePath: string | null) => {
-    return imagePath ? imagePath : "/placeholder.jpg";
-  };
+//  const getImageUrl = (imagePath: string | null) => {
+//    return imagePath ? imagePath : "/placeholder.jpg";
+//  };
 
   const fetchProduct = async () => {
     setLoading(true);
